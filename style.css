@@ -1,0 +1,52 @@
+/*Color Palette
+background color:                               #020659
+curated playlists playlist background color:    #020873
+curated playlists section background color:     #030A8C
+your playlists playlist background color:       #0D8DFB
+gradient start color:                           #2104D9
+your playlists section background color:        #2699FB
+accent color:                                   #590242
+*/
+
+html {
+    background-color: #020659;
+
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+nav {
+    background-color: #030A8C;
+}
+
+nav > li {
+    font-variant: small-caps;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+h2, h3 {
+    font-size: 1em;
+}
+
+p, dl, dd {
+    font-size: 1em;
+}
+
+footer p {
+    font-size: .75em;
+}
