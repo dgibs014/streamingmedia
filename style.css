@@ -13,6 +13,10 @@ html {
 
 }
 
+head {
+
+}
+
 body {
     width: 375px;
     margin: 0 auto;
@@ -20,10 +24,6 @@ body {
 }
 
 header {
-
-}
-
-footer {
 
 }
 
@@ -47,6 +47,45 @@ p, dl, dd {
     font-size: 1em;
 }
 
+footer {
+
+}
+
 footer p {
     font-size: .75em;
+}
+
+audio::-webkit-media-controls-mute-button {
+
+}
+audio::-webkit-media-controls-play-button {
+
+}
+audio::-webkit-media-controls-enclosure {
+
+}
+
+#trending ::-webkit-scrollbar {
+
+}
+#trending ::-webkit-scrollbar-track {
+
+}
+#trending ::-webkit-scrollbar-thumb {
+
+}
+#trending ::-webkit-scrollbar-thumb:hover {
+
+}
+#playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
+
+}
+#playlists ::-webkit-scrollbar-track, #curated ::-webkit-scrollbar-track  {
+
+}
+#playlists ::-webkit-scrollbar-thumb, #curated ::-webkit-scrollbar-thumb {
+
+}
+#playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
+
 }
