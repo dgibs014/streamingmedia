@@ -14,18 +14,23 @@
             <h2>Smooth Jazz</h2>
                 <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
                     <nav>
+                        <h2>Main Navigation</h2>
+                        <input type="checkbox" id="dropdown">
+                        <label for="dropdown"><span></span></label>
                         <ul>
-                            <li>MuzakMaker</li>
+                            <li><a>MuzakMaker</a></li>
                             <li><a href="#trending">Trending Songs</a></li>
                             <li><a href="#playlists">Your playlists</a></li>
                             <li><a href="#curated">Curated Playlists</a></li>
-                            <li><img src="images/duke-silver.png"></li>
+                            <li><a><img src="images/duke-silver.png"></a></li>
                         </ul>
                     </nav>      
     </header>
     <main>
         <section id="trending">
             <h3>Trending Songs</h3>
+            <div class="scroll">
+            <section>
                 <dl>
                     <dt>Aloma</dt>
                     <dd>Artist Cali</dd>
@@ -36,7 +41,8 @@
                         </audio>
                     </dd>
                 </dl>
-                
+            </section>
+            <section>    
                 <dl>
                     <dt>My Road</dt>
                     <dd>Artist Nesterouk</dd>
@@ -47,7 +53,8 @@
                         </audio>
                     </dd>
                 </dl>
-                
+            </section>
+            <section>    
                 <dl>
                     <dt>Papaya</dt>
                     <dd>Artist Dredstudio</dd>
@@ -58,7 +65,8 @@
                         </audio>
                     </dd>
                 </dl>
-                
+            </section>
+            <section>    
                 <dl>
                     <dt>Smoothies</dt>
                     <dd>Artist Black Rhomb</dd>
@@ -69,7 +77,8 @@
                         </audio>
                     </dd>
                 </dl>
-                
+            </section>
+            <section>    
                 <dl>
                     <dt>Successful Performance</dt>
                     <dd>Artist Ricky Bombino</dd>
@@ -80,76 +89,95 @@
                         </audio>
                     </dd>
                 </dl>
+            </section>
+            </div>
             <button>More trending</button>
         </section>
 
         <section id="playlists">
             <h3>Your Playlists</h3>
-                <figure>
-                    <img src="images/best-of-2020-cover.png">
-                    <h4>Best of 2020</h4>
-                    <figcaption>The music that got you through the lock down.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/pumpkin-spice-cover.png">
-                    <h4>Pumpkin Spice</h4>
-                    <figcaption>Creamy and spicy, just like your favorite autumnal latte.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/quiet-storm-cover.png">
-                    <h4>Quiet Storm</h4>
-                    <figcaption>Slow tempos and relaxed rhythms.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/smooth-jazz-cover.png">
-                    <h4>Smooth Jazz</h4>
-                    <figcaption>The pioneers of smooth jazz</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/smooth-study-cover.png">
-                    <h4>Smooth Study</h4>
-                    <figcaption>Background music to keep you going while you study.</figcaption>
-                </figure>
-                
-            <button>All your playlists</button>
+            <div class="scroll">
+                <section>
+                    <figure>
+                        <img src="images/best-of-2020-cover.png">
+                        <h4>Best of 2020</h4>
+                        <figcaption>The music that got you through the lock down.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/pumpkin-spice-cover.png">
+                        <h4>Pumpkin Spice</h4>
+                        <figcaption>Creamy and spicy, just like your favorite autumnal latte.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/quiet-storm-cover.png">
+                        <h4>Quiet Storm</h4>
+                        <figcaption>Slow tempos and relaxed rhythms.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/smooth-jazz-cover.png">
+                        <h4>Smooth Jazz</h4>
+                        <figcaption>The pioneers of smooth jazz</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/smooth-study-cover.png">
+                        <h4>Smooth Study</h4>
+                        <figcaption>Background music to keep you going while you study.</figcaption>
+                    </figure>
+                </section>
+            </div>    
+            
         </section>
+        <button>All your playlists</button>
         <section id="curated">
             <h3>Curated Playlists</h3>
-                <figure>
-                    <img src="images/boozy-brunch-cover.png">
-                    <h4>Boozy Brunch</h4>
-                    <figcaption>Light up the afternoon with these energetic hits.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/dinner-party-cover.png">
-                    <h4>Dinner Party</h4>
-                    <figcaption>Background music to give your party life, but allow your guests to chat.</figcaption>
-                </figure>
-                    
-                <figure>
-                    <img src="images/mellow-cover.png">
-                    <h4>Mellow</h4>
-                    <figcaption>Relax after a stressful day with this collection of extra smooth jazz.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/jazz-chill-cover.png">
-                    <h4>Jazz and Chill</h4>
-                    <figcaption>Set the mood with these silky sounds.</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/smooth-saxophone-cover.png">
-                    <h4>Jazz Saxophone</h4>
-                    <figcaption>The greatest collection of your sax favorites.</figcaption>
-                </figure>    
-            <button>More curated</button>
+                <div class="scroll">
+                <section>
+                    <figure>
+                        <img src="images/boozy-brunch-cover.png">
+                        <h4>Boozy Brunch</h4>
+                        <figcaption>Light up the afternoon with these energetic hits.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/dinner-party-cover.png">
+                        <h4>Dinner Party</h4>
+                        <figcaption>Background music to give your party life, but allow your guests to chat.</figcaption>
+                    </figure>
+                </section>
+                <section>   
+                    <figure>
+                        <img src="images/mellow-cover.png">
+                        <h4>Mellow</h4>
+                        <figcaption>Relax after a stressful day with this collection of extra smooth jazz.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/jazz-chill-cover.png">
+                        <h4>Jazz and Chill</h4>
+                        <figcaption>Set the mood with these silky sounds.</figcaption>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <img src="images/smooth-saxophone-cover.png">
+                        <h4>Jazz Saxophone</h4>
+                        <figcaption>The greatest collection of your sax favorites.</figcaption>
+                    </figure>
+                </section>
+                </div>   
+            
         </section>
+        <button>More curated</button>
     </main>    
     <footer>
         <p>Copyright 2022 Smooth Jazz</p>
