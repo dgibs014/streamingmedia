@@ -17,17 +17,8 @@ html {
 header {
     display: grid;
     grid-template-columns: auto;
-    background-image: -webkit-linear-gradient(180deg, #2104D9,#000);
-}
-
-audio::-webkit-media-controls-mute-button {
-
-}
-audio::-webkit-media-controls-play-button {
-
-}
-audio::-webkit-media-controls-enclosure {
-
+    background-image: -webkit-linear-gradient(180deg, #000, #2104D9);
+    height: 500px;
 }
 
 #trending button {
@@ -47,6 +38,16 @@ audio::-webkit-media-controls-enclosure {
 }
 #trending ::-webkit-scrollbar-thumb:hover {
     background: #020659;
+}
+
+audio::-webkit-media-controls-mute-button {
+
+}
+audio::-webkit-media-controls-play-button {
+
+}
+audio::-webkit-media-controls-enclosure {
+
 }
 
 #playlists {
@@ -91,7 +92,7 @@ h1 {
     visibility: hidden;
 }
 
-h1, h2, h3 {
+h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
     line-height: 2em;
@@ -106,6 +107,18 @@ h3 {
     color: #590242;
     font-variant: all-small-caps;
     background-color: #fff;
+}
+
+.grid-item {
+    grid-column: 1;
+}
+
+.item1 {
+    grid-row: 1;
+}
+
+.item2 {
+    
 }
 
 nav {
@@ -147,7 +160,7 @@ nav a:hover, nav input:hover {
 nav label {
     cursor: pointer;
     display: inline-block;
-    padding: 28px 20px;
+    padding: 40px 20px;
     position: relative;
     user-select: none;
 }
@@ -259,7 +272,7 @@ footer p {
     nav ul {
         overflow: visible;
         position: absolute;
-        top: 25px;
+        /*top: 25px;*/
         display: grid;
         grid-template-columns: 234px 150px 150px 150px 150px ;
         
