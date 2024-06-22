@@ -10,7 +10,7 @@ accent color:                                   #590242
 
 html {
     background-color: #020659;
-
+    color: #fff;
 }
 
 head {
@@ -29,18 +29,43 @@ header {
 
 nav {
     background-color: #030A8C;
+
 }
 
-nav > li {
+nav ~ li {
+
+}
+
+nav li {
+
+}
+
+ul :first-child {
     font-variant: small-caps;
 }
 
 h1 {
     font-size: 1.25em;
+    font-variant: small-caps;
+
+
+}
+
+h2 {
+
+}
+
+h2 p {
+
 }
 
 h2, h3 {
     font-size: 1em;
+}
+
+h3 {
+    color: #590242;
+    font-variant: all-small-caps;
 }
 
 main {
@@ -52,13 +77,13 @@ p, dl, dd {
 }
 
 footer {
-
+    
 }
 
 footer p {
     font-size: .75em;
 }
-
+/*
 audio::-webkit-media-controls-mute-button {
 
 }
@@ -68,7 +93,8 @@ audio::-webkit-media-controls-play-button {
 audio::-webkit-media-controls-enclosure {
 
 }
-
+*/
+/*
 #trending ::-webkit-scrollbar {
 
 }
@@ -79,7 +105,8 @@ audio::-webkit-media-controls-enclosure {
 
 }
 #trending ::-webkit-scrollbar-thumb:hover {
-
+*/
+/*
 }
 #playlists ::-webkit-scrollbar, #curated ::-webkit-scrollbar {
 
@@ -92,4 +119,18 @@ audio::-webkit-media-controls-enclosure {
 }
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
 
+}
+*/
+
+@media screen and (min-width:834px) {
+    ul {
+        overflow: visible;
+        position: absolute;
+        top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    label span, input {
+        display: none;
+    }
 }
